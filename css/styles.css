@@ -29,6 +29,7 @@ a {
 a:hover {
   color: #e3b873;
 }
+/* GENERAL================================================================================= */
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
@@ -78,6 +79,7 @@ a:hover {
   max-width: 1171px;
   margin: auto;
 }
+/* HEADER================================================================== */
 .header {
   background-color: #000;
   font-size: 11px;
@@ -108,4 +110,142 @@ a:hover {
 .header-button {
   width: 161px;
   height: 37px;
+}
+/* MAIN=================================================================== */
+.main-picture {
+  background-image: url(../images/picture.jpg);
+  background-size: cover;
+  max-width: 100%;
+}
+.main-picture__background {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-top: 194px;
+  padding-bottom: 208px;
+  max-width: 100%;
+}
+.main-description {
+  color: #ffffff;
+}
+.main-title {
+  max-width: 520px;
+  margin-bottom: 19px;
+}
+.main-title__item {
+  color: #e3b873;
+}
+.main-text {
+  font-size: 22px;
+  line-height: 36px;
+  max-width: 505px;
+  margin-bottom: 41px;
+}
+.main-button {
+  font-size: 11px;
+  line-height: 15px;
+  width: 207px;
+  height: 51px;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+}
+.main-button:hover {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid #ffffff;
+}
+.main-button__calculate {
+  margin-right: 20px;
+}
+.main-slider {
+  background-color: #131313;
+  color: #ffffff;
+  padding: 107px 0 416px;
+}
+
+.nav-slider {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 52px;
+}
+.main-slider__nav {
+  display: flex;
+  padding-left: 0;
+  font-family: "Yeseva One";
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+.nav-item__link:hover {
+  text-decoration-line: underline;
+}
+.nav-block {
+  flex: 0 3 39%;
+}
+.nav-item {
+  margin-right: 60px;
+}
+.main-slider__content {
+  display: inline-block;
+  position: absolute;
+}
+.main-slider__title {
+  max-width: 253px;
+  margin-bottom: 30px;
+  letter-spacing: -0.07em;
+}
+.main-slider__text {
+  max-width: 350px;
+  font-size: 14px;
+  line-height: 27px;
+}
+.slider-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.slider-information {
+  display: flex;
+  justify-content: space-between;
+}
+.information-item {
+  margin-right: 34px;
+}
+.item-title {
+  font-size: 18px;
+  line-height: 25px;
+}
+.information-item__title {
+  color: #e3b873;
+  margin-bottom: 9px;
+}
+.information-item__time {
+  margin-top: 34px;
+}
+.information-item__cost {
+  margin-top: 53px;
+}
+.arrows {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+}
+.slider-point {
+  width: 9.57px;
+  height: 9.57px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-right: 17.54px;
+  border-radius: 30px;
+}
+.slider-point:active {
+  background-color: #ffffff;
+}
+.arrows-left {
+  margin-right: 29.5px;
+}
+.arrows-riht {
+  margin-left: 11.96px;
+}
+.slider-content__item {
+  align-self: flex-end;
+}
+.slider-content__img {
+  width: 100%;
+  height: auto;
 }
