@@ -540,3 +540,49 @@ a:hover {
   text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
   margin-left: 25px;
 }
+.fantasies-title {
+  margin: 137px 0 47px;
+}
+.fantasies-nav__item {
+  margin: 0 0 25px 0;
+  font-size: 20px;
+}
+.fantasies-backgraund {
+  background-image: url(../images/fantasies-backgraund.jpg);
+  background-size: cover;
+  max-width: 100%;
+  height: 864px;
+}
+.fantasies-backgraund__transparent {
+  background: linear-gradient(
+    109.8deg,
+    rgba(0, 0, 0, 0.75) 0%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+  height: 100%;
+}
+.fantasies-wraapper {
+  display: flex;
+}
+.fantasies-wraapper__item {
+  text-align: start;
+}
+.fantasies-block {
+  text-align: end;
+}
+.block-1 {
+  margin-top: -40px;
+}
+.block-2 {
+  margin-top: -112px;
+}
+.fantasies-img__1 {
+  margin-bottom: 39px;
+}
+.fantasies-img__3 {
+  margin-bottom: 37px;
+}
+.fantasies-slider__img {
+  flex: 0 0 100%;
+  height: 60vw;
+}
